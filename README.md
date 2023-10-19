@@ -1,49 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+This is a Next.js project bootstrapped with create-next-app. This WebApp is a school project made by Icham M'MADI , Wissem KARBOUB and Samy HAMLAT, this website is a streaming website created with NEXTJS, TAILWIND, FIREBASE, REACT PLAYER and the TMDB Api.
 
+Design Figma
+Here you'll find the whole process of the design Page wich contains all the colors and font we are using. [https://www.figma.com/file/THIaySC5cCH96Raz3aydg4/Untitled?node-id=1%3A36&t=8QvjHc60n0gjUwNn-1]
+
+Getting Started
 First, run the development server:
 
-```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can start editing the page by modifying pages/index.tsx. The page auto-updates as you edit the file.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Installing the required modules to use the Website
+To install the API Key in order to get all the queries in the website you'll need to create a file named :
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+.env.local
+This file will contain the following Key : NEXT_PUBLIC_API_KEY=db7ff1bedcfb63197436b09955f17eef
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Still Getting errors?
+If you are getting errors this is completely normal, modules and API Key are not installed.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To install them open your terminal and type:
 
-## Learn More
+npm install recoil
+# and
+npm install firebase
+# and
+npm install @mui/material @emotion/react @emotion/styled
+# and
+npm install react-player
+Additonal content
+For more information about the API : API_IMG :
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-API_URL
-
-[https://api.themoviedb.org/3/movie/popular?api_key=db7ff1bedcfb63197436b09955f17eef]
-
-API_IMG :
-
-[`https://image.tmdb.org/t/p/w500/`]
+[https://image.tmdb.org/t/p/w500/]
 
 API_SEARCH :
 
